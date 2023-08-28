@@ -2,3 +2,4 @@
 
 # Put your code here
 print("hi")
+print("Greetings player")
