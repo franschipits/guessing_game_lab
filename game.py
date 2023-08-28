@@ -17,7 +17,7 @@ print("Choose random number between 1 and 100")
 
 while True: 
     guesses = 0
-    number = input("number: ")
+    number = int(input("number: "))
     num = random.randint(1, 101)
     if number != num:
         if number > num:
@@ -27,3 +27,4 @@ while True:
         guesses + 1
     if number == num:
         print(f"Congratulations! You got it in {guesses}")
+        break
